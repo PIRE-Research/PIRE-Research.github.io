@@ -1,4 +1,91 @@
-.u-section-1 .u-sheet-1 {min-height: 854px}
-.u-section-1 .u-custom-html-1 {min-height: 760px; margin: 0 0 60px} 
+.u-section-1 .u-sheet-1 {min-height: 946px}
+.u-section-1 .u-custom-html-1 {min-height: 604px; margin: 0 439px 0 0}
+.u-section-1 .u-text-1 {text-decoration: underline !important; margin: -570px 48px 0 758px}
+.u-section-1 .u-text-2 {font-size: 1.5rem; margin: 48px 23px 0 733px}
+.u-section-1 .u-text-3 {font-size: 1.5rem; margin: 79px 4px 0 724px}
+.u-section-1 .u-text-4 {font-size: 1.5rem; margin: 76px 4px 0 714px}
+.u-section-1 .u-text-5 {margin: 140px auto 0}
+.u-section-1 .u-btn-1 {border-style: solid; font-weight: 700; text-transform: uppercase; margin: 30px auto 60px} 
 
-@media (max-width: 1199px){ .u-section-1 .u-custom-html-1 {height: auto; margin-right: initial; margin-left: initial} }
+@media (max-width: 1199px){ .u-section-1 .u-custom-html-1 {height: auto; margin-right: 239px}
+.u-section-1 .u-text-1 {margin-right: 46px; margin-left: 606px}
+.u-section-1 .u-text-2 {margin-right: 115px; margin-left: 555px}
+.u-section-1 .u-text-3 {margin-right: 42px; margin-left: 528px}
+.u-section-1 .u-text-4 {margin-right: -21px; margin-left: 517px} }
+
+@media (max-width: 991px){ .u-section-1 .u-custom-html-1 {margin-right: 19px}
+.u-section-1 .u-text-1 {margin-right: 35px; margin-left: 386px}
+.u-section-1 .u-text-2 {margin-right: 88px; margin-left: 335px}
+.u-section-1 .u-text-3 {margin-right: 32px; margin-left: 308px}
+.u-section-1 .u-text-4 {margin-right: -16px; margin-left: 297px} }
+
+@media (max-width: 767px){ .u-section-1 .u-custom-html-1 {margin-right: 0}
+.u-section-1 .u-text-1 {margin-right: 26px; margin-left: 206px}
+.u-section-1 .u-text-2 {margin-right: 66px; margin-left: 155px}
+.u-section-1 .u-text-3 {margin-right: 24px; margin-left: 128px}
+.u-section-1 .u-text-4 {margin-right: -12px; margin-left: 117px} }
+
+@media (max-width: 575px){ .u-section-1 .u-text-1 {margin-right: 16px; margin-left: 6px}
+.u-section-1 .u-text-2 {margin-right: 42px; margin-left: 0}
+.u-section-1 .u-text-3 {margin-right: 15px; margin-left: 0}
+.u-section-1 .u-text-4 {margin-right: -8px; margin-left: 0} }
+
+/* BC (04/23/2021): Refactored styles from HTML page into this stylesheet */
+/* START: Added from Map.html */
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+/* END: Added from Map.html */
+
+/* START: Custom styles */
+
+aside#supplementary-info {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 400px;
+}
+
+figure#weather-radar-figure {
+  margin-top: 0px;
+}
+
+figure#graphical-weather-forecast-figure:hover {
+  cursor: pointer;
+}
+
+img#graphical-weather-forecast {
+  max-width: 400px;
+}
+
+img#graphical-weather-forecast-modal, img#weather-radar-image-modal {
+  max-width: 770px;
+}
+
+figure#graphical-weather-forecast-figure > figcaption {
+  font-size: 11pt;
+}
+
+figure.supplementary-info-figure {
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+.map-popup {
+  text-align: center;
+}
+
+.map-popup a {
+  font-size: large;
+}
+
+/* END: Custom styles */
